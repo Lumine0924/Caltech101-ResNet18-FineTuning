@@ -13,9 +13,6 @@ Caltech101-ResNet18-FineTuning/
 ├── requirements.txt # Python dependencies
 └── README.md # Project description
 
-markdown
-复制
-编辑
 
 ## 🗂 Dataset
 
@@ -44,25 +41,13 @@ markdown
 ## 🔍 How to Run
 
 ### 1️⃣ Clone the repository
-
-```bash
 git clone https://github.com/your-username/Caltech101-ResNet18-FineTuning.git
 cd Caltech101-ResNet18-FineTuning
-2️⃣ Install dependencies
-bash
-复制
-编辑
+### 2️⃣ Install dependencies
 pip install -r requirements.txt
-3️⃣ Download the dataset
+### 3️⃣ Download the dataset
 Download and extract the Caltech-101 dataset into the data/ directory.
-
-4️⃣ Train the model
-bash
-复制
-编辑
+### 4️⃣ Train the model
 python train.py
-5️⃣ Predict on a single image
-bash
-复制
-编辑
+### 5️⃣ Predict on a single image
 python predict.py --image_path ./data/airplanes/image_0001.jpg
