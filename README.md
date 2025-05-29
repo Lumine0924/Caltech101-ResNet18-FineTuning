@@ -1,4 +1,4 @@
-# Caltech101-ResNet18-FineTuning# Caltech-101 Image Classification with Fine-tuned ResNet-18
+# Caltech101-ResNet18-FineTuning
 
 This project implements an image classification model for the Caltech-101 dataset using a fine-tuned ResNet-18 architecture pretrained on ImageNet. The project demonstrates the power of transfer learning for small-scale image classification tasks.
 
